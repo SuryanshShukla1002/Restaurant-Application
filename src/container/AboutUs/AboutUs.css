@@ -70,10 +70,12 @@
         flex-direction: column;
 
     }
+
     .app__aboutus-content_knife {
         margin: 4rem 0;
     }
 }
+
 @media screen and (max-width: 650px) {
     .app__aboutus-overlay img {
         width: 80%;

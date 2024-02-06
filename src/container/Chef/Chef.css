@@ -1,4 +1,4 @@
-.app__chef-content{
+.app__chef-content {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -10,16 +10,19 @@
     justify-content: flex-start;
     align-items: flex-end;
 }
-.app__chef-content_quote img{
+
+.app__chef-content_quote img {
     width: 47px;
     height: 40px;
     margin: 1 1rem 1rem 0;
 }
-.app__chef-sign{
+
+.app__chef-sign {
     width: 100%;
-    margin-top:3rem ;
+    margin-top: 3rem;
 }
-.app__chef-sign p:first-child{
+
+.app__chef-sign p:first-child {
     font-family: var(--font-base);
     font-size: 32;
     font-weight: 400;
@@ -28,18 +31,19 @@
     text-transform: capitalize;
     color: var(--color-golden);
 }
-.app__chef-sign img{
+
+.app__chef-sign img {
     width: 250px;
     margin-top: 3rem;
 }
 
-@media screen and (max-width: 2000px){
+@media screen and (max-width: 2000px) {
     .app__chef-sign img {
         width: 370px;
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
     .app__chef-sign img {
         width: 80%;
     }
